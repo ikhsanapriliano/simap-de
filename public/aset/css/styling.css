@@ -1,0 +1,11 @@
+/* styling.css */
+.led {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: 1055.5%; /* Posisi vertikal relatif terhadap elemen induk */
+  transform: translateY(0%); /* Menggeser posisi vertikal untuk mengatur pusat elemen */
+  right: 70px; /* Jarak dari sisi kanan elemen induk */
+}
